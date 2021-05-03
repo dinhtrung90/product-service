@@ -10,7 +10,7 @@
     <!--
         Added the entity Category.
     -->
-    <changeSet id="20190907213004-1" author="jhipster">
+    <changeSet id="20200907213004-1" author="jhipster">
         <createTable tableName="category">
             <column name="id" type="bigint" autoIncrement="${autoIncrement}">
                 <constraints primaryKey="true" nullable="false"/>
@@ -28,7 +28,7 @@
 
     </changeSet>
 
-    <changeSet id="20190907213004-1-relations" author="jhipster">
+    <changeSet id="20200907213004-1-relations" author="jhipster">
 
     </changeSet>
     <!-- jhipster-needle-liquibase-add-changeset - JHipster will add changesets here, do not remove-->

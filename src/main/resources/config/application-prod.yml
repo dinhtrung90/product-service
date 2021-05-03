@@ -121,6 +121,10 @@ jhipster:
       expiration: 3600 # By default objects stay 1 hour (in seconds) in the cache
       server: redis://${app.redis-password}@${app.redis-url}:6379
       cluster: false
+      connectionPoolSize: 64
+      connectionMinimumIdleSize: 24
+      subscriptionConnectionPoolSize: 50
+      subscriptionConnectionMinimumIdleSize: 1
       # server: redis://localhost:6379,redis://localhost:16379,redis://localhost:26379
       # cluster: true
   registry:

@@ -6,8 +6,8 @@
     <!--
         Added the constraints for entity Campaign.
     -->
-    <changeSet id="20190907213008-2" author="jhipster">
-        
+    <changeSet id="20200907213008-2" author="jhipster">
+
         <addForeignKeyConstraint baseColumnNames="discount_type_id"
                                  baseTableName="campaign"
                                  constraintName="fk_campaign_discount_type_id"

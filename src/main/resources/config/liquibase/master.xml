@@ -15,7 +15,21 @@
     <property name="datetimeType" value="datetime" dbms="oracle, mssql, postgresql, h2"/>
 
     <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200907213004_added_entity_Category.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200907213005_added_entity_Product.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200907213006_added_entity_Cart.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200907213007_added_entity_CartState.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200907213008_added_entity_Campaign.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200907213009_added_entity_DiscountType.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200907213010_added_entity_Coupon.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200908213700_added_entity_CartProduct.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
+    <include file="config/liquibase/changelog/20200907213004_added_entity_constraints_Category.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200907213005_added_entity_constraints_Product.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200907213006_added_entity_constraints_Cart.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200907213008_added_entity_constraints_Campaign.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200907213010_added_entity_constraints_Coupon.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200908213700_added_entity_constraints_CartProduct.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-incremental-changelog - JHipster will add incremental liquibase changelogs here -->
 </databaseChangeLog>
